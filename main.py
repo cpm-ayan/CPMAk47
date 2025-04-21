@@ -149,8 +149,8 @@ from pystyle import Colors, Colorate
 
 from carparktool import CarParkTool
 
-__CHANNEL_USERNAME__ = "Whatsapp 03367390421"
-__GROUP_USERNAME__   = "Whatsapp 03367390421"
+__CHANNEL_USERNAME__ = "ToolYameenCPM_Chat"
+__GROUP_USERNAME__   = "ToolYameenCPM"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -175,9 +175,9 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name = figlet_format('CPMAK', font='starwars')
+    brand_name = figlet_format('Yameen', font='starwars')
     colors = [
-        "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
+        "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)",
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
