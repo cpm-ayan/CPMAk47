@@ -149,8 +149,8 @@ from pystyle import Colors, Colorate
 
 from carparktool import CarParkTool
 
-__CHANNEL_USERNAME__ = "ToolYameenCPM_Chat"
-__GROUP_USERNAME__   = "ToolYameenCPM"
+__CHANNEL_USERNAME__ = "YameenCPM_ToolChannel"
+__GROUP_USERNAME__   = "YameenCPM_ToolChaT"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
