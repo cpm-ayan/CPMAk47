@@ -1,7 +1,7 @@
 import requests
 from time import sleep
 
-BASE_URL: str = "https://dodgerblue-scorpion-385977.hostingersite.com/api"
+BASE_URL: str = "https://lightskyblue-swan-106364.hostingersite.com/api"
 
 class CarParkTool:
     def __init__(self, access_key) -> None:
