@@ -49,7 +49,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system("cls" if os.name == "nt" else "clear")
-    brand_name = "Please Join Our Channel @CpmPupsNatri"
+    brand_name = "Please Join Our Channel @YameenCPM_ToolChannel"
 
     text = Text(brand_name, style="bold black")
 
@@ -255,17 +255,6 @@ if __name__ == "__main__":
                 "36",
                 "37",
                 "38",
-                "39",
-                "40",
-                "41",
-                "42",
-                "43",
-                "44",
-                "45",
-                "46",
-                "47",
-                "48",
-                "49",
             ]
             console.print(
                 "[bold yellow][bold white](01)[/bold white]: Increase Money                 [bold red]1.5K[/bold red][/bold yellow]"
@@ -382,44 +371,11 @@ if __name__ == "__main__":
                 "[bold yellow][bold white](38)[/bold white]: Unlock Premium Wheels          [bold red]4.5K[/bold red][/bold yellow]"
             )
             console.print(
-                "[bold yellow][bold white](39)[/bold white]: Unlock Toyota Crown            [bold red]2K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](40)[/bold white]: Unlock Clan Hat (M)            [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](41)[/bold white]: Remove Head Male               [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](42)[/bold white]: Remove Head Female             [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](43)[/bold white]: Unlock Clan Top 1 (M)          [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](44)[/bold white]: Unlock Clan Top 2 (M)          [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](45)[/bold white]: Unlock Clan Top 3 (M)          [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](46)[/bold white]: Unlock Clan Top 1 (FM)         [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](47)[/bold white]: Unlock Clan Top 2 (FM)         [bold red]3K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](48)[/bold white]: Unlock Mercedes Cls            [bold red]4K[/bold red][/bold yellow]"
-            )
-            console.print(
-                "[bold yellow][bold white](49)[/bold white]: Stance Camber                  [bold red]1K[/bold red][/bold yellow]"
-            )
-            console.print(
                 "[bold yellow][bold white](0) [/bold white]: Exit From Tool [/bold yellow]"
             )
 
             console.print(
-                "[bold red]===============[bold white][ CPM 001 ][/bold white]===============[/bold red]"
+                "[bold red]===============[bold white][ Ayan ][/bold white]===============[/bold red]"
             )
 
             service = IntPrompt.ask(
@@ -429,7 +385,7 @@ if __name__ == "__main__":
             )
 
             console.print(
-                "[bold red]===============[bold white][ CPM 001 ][/bold white]===============[/bold red]"
+                "[bold red]===============[bold white][ Ayan ][/bold white]===============[/bold red]"
             )
 
             if service == 0:  # Exit
@@ -535,7 +491,7 @@ if __name__ == "__main__":
                 new_id = Prompt.ask("[?] ID")
                 console.print("[%] Saving your data: ", end=None)
                 if (
-                    len(new_id) >= 8
+                    len(new_id) >= 1
                     and len(new_id)
                     <= 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
                     and (" " in new_id) == False
@@ -1440,220 +1396,6 @@ if __name__ == "__main__":
             elif service == 38:  # SHITTIN
                 console.print("[%] Unlocking Premium Wheels..: ", end=None)
                 if cpm.shittin():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 39:  # Unlock toyota crown
-                console.print(
-                    "[!] Note: this function takes a while to complete, please don't cancel.",
-                    end=None,
-                )
-                console.print("[%] Unlocking Toyota Crown: ", end=None)
-                if cpm.unlock_crown():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 40:  # Unlock Hat
-                console.print("[%] Unlocking Clan Hat: ", end=None)
-                if cpm.unlock_hat_m():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 41:  # remove head male
-                console.print("[%] Removing Male head: ", end=None)
-                if cpm.rmhm():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 42:  # remove head female
-                console.print("[%] Removing Female Head: ", end=None)
-                if cpm.rmhfm():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 43:  # Unlock TOPM
-                console.print("[%] Unlocking Clan clothes Top 1: ", end=None)
-                if cpm.unlock_topm():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 44:  # Unlock TOPMz
-                console.print("[%] Unlocking Clan clothes Top 1: ", end=None)
-                if cpm.unlock_topmz():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 45:  # Unlock TOPMX
-                console.print("[%] Unlocking Clan clothes Top 2: ", end=None)
-                if cpm.unlock_topmx():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 46:  # Unlock TOPF
-                console.print("[%] Unlocking Clan clothes Top: ", end=None)
-                if cpm.unlock_topf():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 47:  # Unlock TOPFZ
-                console.print("[%] Unlocking Clan clothes Top 1: ", end=None)
-                if cpm.unlock_topfz():
-                    console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
-                    console.print(
-                        "[bold green]======================================[/bold green]"
-                    )
-                    answ = Prompt.ask(
-                        "[?] Do You want to Exit ?", choices=["y", "n"], default="n"
-                    )
-                    if answ == "y":
-                        console.print(
-                            "[bold white] Thank You for using my tool[/bold white]"
-                        )
-                    else:
-                        continue
-                else:
-                    console.print("[bold red]FAILED[/bold red]")
-                    console.print("[bold red]Please Try Again[/bold red]")
-                    sleep(2)
-                    continue
-            elif service == 48:  # Unlock Mercedes Cls
-                console.print("[%] Unlocking Mercedes Cls: ", end=None)
-                if cpm.unlock_cls():
                     console.print("[bold green]SUCCESSFUL (✔)[/bold green]")
                     console.print(
                         "[bold green]======================================[/bold green]"
